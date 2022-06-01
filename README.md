@@ -71,6 +71,50 @@ git rm --cached two.txt
 ```code
 git rm -r folderName
 ```
+## Show all branches
+```code
+git branch
+```
+## Create a branch named development
+```code
+git branch development
+```
+## Navigate branch named development
+```code
+git checkout development
+```
+## Merge main branch from inside other branch
+```code
+git merge main -m "message"
+```
+## Merge development branch from inside other branch
+```code
+git merge development -m "message"
+```
+## Merge development branch from inside other branch
+```code
+git merge development
+```
+## Push main repository local to remote
+```code
+git push origin main
+```
+## Push development repository local to remote
+```code
+git push origin development
+```
+## Fetch only changes at local from remote repository
+```code
+git fetch
+```
+## Fetch contents at local from remote repository
+```code
+git merge
+```
+## Fetch + Merge at local from remote repository
+```code
+git pull
+```
 
 # CMD Command
 ## Create a folder
