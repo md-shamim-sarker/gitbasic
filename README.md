@@ -7,6 +7,10 @@ git init
 ```code
 git status
 ```
+## Present status shortly
+```code
+git status --short
+```
 ## Clone remote repository
 ```code
 git clone [http link]
