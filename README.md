@@ -169,3 +169,9 @@ clear
 ```code
 cd ../
 ```
+
+# Git Bash Modification
+## Change title (Need a copy for backup)
+```code
+C:\Program Files\Git\etc\profile.d\git-prompt.sh
+```
