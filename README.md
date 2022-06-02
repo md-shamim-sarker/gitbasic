@@ -8,8 +8,20 @@ git init
 git status
 ```
 ## Present status shortly
+?? - Untracked files
+A - Files added to stage
+M - Modified files
+D - Deleted files
 ```code
 git status --short
+```
+## See git log
+```code
+git log
+```
+## See log content
+```code
+git show logkey
 ```
 ## Clone remote repository
 ```code
@@ -87,6 +99,10 @@ git branch development
 ```code
 git checkout development
 ```
+## Create a branch and navigate that branch at the same time
+```code
+git checkout -b branchName
+```
 ## Merge main branch from inside other branch
 ```code
 git merge main -m "message"
@@ -98,6 +114,10 @@ git merge development -m "message"
 ## Merge development branch from inside other branch
 ```code
 git merge development
+```
+## Delete a branch
+```code
+git branch -d branchName
 ```
 ## Push main repository local to remote
 ```code
