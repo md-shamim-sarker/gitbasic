@@ -59,6 +59,10 @@ git add *.txt
 ```code
 git reset
 ```
+## Unstage a specific file
+```code
+git restore fileName.extension
+```
 ## Unstage all with deleted item
 ```code
 git reset --hard
