@@ -45,15 +45,15 @@ git add *
 ```
 ## Stage a specific file
 ```code
-git add one.txt
+git add fileName.extension
 ```
 ## Stage a specific file
 ```code
-git add myFolder/two.txt
+git add dirName/fileName.extension
 ```
 ## Stage all .txt files
 ```code
-git add *.txt
+git add *.extension
 ```
 ## Unstage all without deleted item
 ```code
@@ -77,31 +77,31 @@ git reset HEAD~
 ```
 ## Remove & stage that file
 ```code
-git rm one.txt
+git rm fileName.extension
 ```
 ## Remove a unstaged file forcefully
 ```code
-git rm one.txt -f
+git rm fileName.extension -f
 ```
 ## Remove cached (Delete two.txt but two.txt file stay in working directory with unstaged)
 ```code
-git rm --cached two.txt
+git rm --cached fileName.extension
 ```
 ## Remove folder in recursive way
 ```code
-git rm -r folderName
+git rm -r dirName
 ```
 ## Show all branches
 ```code
 git branch
 ```
-## Create a branch named development
+## Create a branch
 ```code
-git branch development
+git branch branchName
 ```
-## Navigate branch named development
+## Navigate branch
 ```code
-git checkout development
+git checkout branchName
 ```
 ## Create a branch and navigate that branch at the same time
 ```code
@@ -147,15 +147,15 @@ git pull
 # CMD Command
 ## Create a folder
 ```code
-mkdir myFolder
+mkdir dirName
 ```
 ## Navigate a folder
 ```code
-cd myFolder
+cd dirName
 ```
 ## Create a text file
 ```code
-touch one.txt
+touch fileName.extension
 ```
 ## Folder Content Lists
 ```code
