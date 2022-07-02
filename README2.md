@@ -1,5 +1,4 @@
 # Git Basic
-============
 ## Other Versions
 - [Through Table](README2.md)
 ### Getting & Creating Projects
