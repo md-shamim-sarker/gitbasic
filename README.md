@@ -1,4 +1,7 @@
 # gitbasic
+## Other Versions
+- [Through Table](README2.md)
+
 ## Initialization
 ```code
 git init
